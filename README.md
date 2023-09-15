@@ -9,7 +9,7 @@ express-query-boolean
 
 ## Installation
 
-    npm install --save express-query-boolean
+    npm install git+https://github.com/seungyong/express-query-boolean.git
 
 
 ## Getting Started
@@ -18,7 +18,7 @@ The module will recursively attempt to parse every property in `req.query`.
 Load it right after `bodyParser`:
 
 ```js
-var boolParser = require('express-query-boolean');
+import boolParser from "express-query-boolean";
 
 // [...]
 
